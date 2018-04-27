@@ -217,9 +217,9 @@ QQ:839387596
 
 会显示[Y/N] 按Y回车 等待执行完成~
 
-"git clone https://github.com/XiaohuaCN/1JLD"
+"git clone https://github.com/XiaohuaCN/Cloud-Radar-Plus"
 
-"cd 1JLD/"
+"cd Cloud-Radar-Plus/"
 
 "chmod u+x 1.sh"
 
