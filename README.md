@@ -176,9 +176,9 @@ TCP 和 UDP 必须都是绿色字 才算成功.
 
 打开 - [Xshell 5](https://share.weiyun.com/52F9uF9)  连接你服务器 输入
 
-"forever start index.js sniff eth0 **.**.**.** | pino"
+"forever start index.js sniff eth0 XX.XX.XX.XX | pino"
 
-(此处的**填写 你购买的服务器的内网IP )
+(此处的XX填写 你购买的服务器的内网IP )
 
 回车即可!
 
