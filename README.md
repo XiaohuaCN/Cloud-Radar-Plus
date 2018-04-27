@@ -7,14 +7,13 @@
 
 打开浏览器输入网址即可享用雷达!
 
-
-
 2018/04/27/18:37
 
 Fixed an issue where the enemy could not be displayed.
+
 修复由于游戏版本大更新,导致敌人不在雷达上显示的问题.
 
-Everyone is cheating.  Only you haven't used PUBG's cheating software yet.   
+
 
 Waiting for release........
 
