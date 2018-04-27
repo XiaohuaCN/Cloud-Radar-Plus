@@ -14,13 +14,7 @@ Fixed an issue where the enemy could not be displayed.
 修复由于游戏版本大更新,导致敌人不在雷达上显示的问题.
 
 # ======================================
-By:XiaohuaCN  
-
-QQ:839387596
-
-Peace!
-
-
+Tutorial By:XiaohuaCN  
 
 # 首先你要有一台 云服务器.
 1.服务器供应商随便你选择. 如腾讯云 阿里云 网易云 主机屋 谷歌云 等.
