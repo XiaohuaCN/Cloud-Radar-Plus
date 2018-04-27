@@ -195,34 +195,7 @@ TCP 和 UDP 必须都是绿色字 才算成功.
 然后点击连接. 连接后进入游戏, 开始匹配后即可在 雷达网页内看到你自己所在的位置.以及敌人的位置.
 
 
-# 打开雷达网页显示拒绝访问
-如果是直接拒绝访问打不开.
 
-请检查你的雷达是否搭建成功 服务器内网IP是否填写正确!
-
-
-如果你是玩游戏 玩着玩着出现的
-
-打开 - [Xshell 5](https://share.weiyun.com/52F9uF9)  连接你服务器 输入
-
-"forever start index.js sniff eth0 XX.XX.XX.XX | pino"
-
-(此处的XX填写 你购买的服务器的内网IP 然后开始玩游戏 等待5~10分钟后在关闭Xshell 5 )
-
-
-
-
-
-
-如果你是服务器重启后出现的请
-
-打开 - [Xshell 5](https://share.weiyun.com/52F9uF9)  连接你服务器 输入
-
-"forever start index.js sniff eth0 XX.XX.XX.XX | pino"
-
-(此处的XX填写 你购买的服务器的内网IP )
-
-回车即可!
 
 
 
@@ -265,9 +238,56 @@ TCP 和 UDP 必须都是绿色字 才算成功.
 
 - [最后上游戏吧!](#如何上游戏玩耍) 
 
+
 # 教程结束!
 By:XiaohuaCN  
 
 QQ:839387596
 
 # Peace!
+
+
+
+
+
+
+
+# 打开雷达网页显示拒绝访问
+
+如果是直接拒绝访问打不开.
+
+请检查你的雷达是否搭建成功 服务器内网IP是否填写正确! 是否吧SS端口和20086端口映射
+
+
+
+
+如果你是玩游戏 玩着玩着出现的
+
+打开 - [Xshell 5](https://share.weiyun.com/52F9uF9)  连接你服务器 输入
+
+"forever start index.js sniff eth0 XX.XX.XX.XX | pino"
+
+(此处的XX填写 你购买的服务器的内网IP 然后开始玩游戏 等待5~10分钟后在关闭Xshell 5 )
+
+
+
+
+如果你是服务器重启后出现的请
+
+打开 - [Xshell 5](https://share.weiyun.com/52F9uF9)  连接你服务器 输入
+
+"forever start index.js sniff eth0 XX.XX.XX.XX | pino"
+
+(此处的XX填写 你购买的服务器的内网IP )
+
+回车即可!
+
+
+# 教程结束!
+By:XiaohuaCN  
+
+QQ:839387596
+
+# Peace!
+
+
