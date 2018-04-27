@@ -13,7 +13,7 @@ Fixed an issue where the enemy could not be displayed.
 
 修复由于游戏版本大更新,导致敌人不在雷达上显示的问题.
 
-# ============================================
+# =========================================
 By:XiaohuaCN  
 
 QQ:839387596
@@ -109,7 +109,9 @@ TCP 和 UDP 必须都是绿色字 才算成功.
 
 如何查看你按回车后 这行代码是否执行完毕了 可以进行下一行代码了?
 
-当你的- [Xshell 5](https://share.weiyun.com/52F9uF9)  窗口内出现[root@ ****** centos~]# 的时候就可以执行下一行代码了
+当你的- [Xshell 5](https://share.weiyun.com/52F9uF9)  窗口内出现[root@ ****** centos~]# 
+
+的时候就可以执行下一行代码了
 
 "curl https://raw.githubusercontent.com/creationix/nvm/v0.13.1/install.sh | bash"
 
