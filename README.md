@@ -13,6 +13,10 @@ Fixed an issue where the enemy could not be displayed.
 
 修复由于游戏版本大更新,导致敌人不在雷达上显示的问题.
 
+# 如果你觉得本教程以及工具很有用  可以捐助(不强求) 一下吃不起饭饭的我
+
+![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/1.jpg)
+
 # ======================================
 Tutorial By:XiaohuaCN  
 
@@ -204,9 +208,11 @@ QQ:839387596
 
 # Peace!
 
+# 如果你觉得本教程以及工具很有用  可以捐助(不强求) 一下吃不起饭饭的我
+
+![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/1.jpg)
+
 # ======================================
-
-
 
 
 
@@ -274,8 +280,11 @@ QQ:839387596
 
 # Peace!
 
+# 如果你觉得本教程以及工具很有用  可以捐助(不强求) 一下吃不起饭饭的我
 
+![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/1.jpg)
 
+# ======================================
 
 
 
