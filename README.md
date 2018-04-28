@@ -280,6 +280,8 @@ QQ:839387596
 
 打开 - [Xshell 5](https://share.weiyun.com/52F9uF9)  连接你服务器 输入
 
+"cd Cloud-Radar-Plus/"
+
 "forever start index.js sniff eth0 XX.XX.XX.XX | pino"
 
 (此处的XX填写 你购买的服务器的内网IP 然后开始玩游戏 等待5~10分钟后在关闭Xshell 5 )
@@ -290,6 +292,8 @@ QQ:839387596
 ----如果你是服务器重启后出现的请
 
 打开 - [Xshell 5](https://share.weiyun.com/52F9uF9)  连接你服务器 输入
+
+"cd Cloud-Radar-Plus/"
 
 "forever start index.js sniff eth0 XX.XX.XX.XX | pino"
 
