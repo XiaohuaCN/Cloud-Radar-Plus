@@ -10,20 +10,6 @@ chmod +x restart.sh
 
 read -p "任意键继续.[注意]是重装.不是安装.前提是你有安装过了SS和雷达了 如果你以前没有安装过请按Ctrl+C 终止操作" 
 
-curl https://raw.githubusercontent.com/creationix/nvm/v0.13.1/install.sh | bash
-source ~/.bash_profile
-nvm install v9.8.0
-nvm alias default v9.8.0
-yum -y install gcc-c++
-yum -y install flex
-yum -y install bison
-wget http://www.tcpdump.org/release/libpcap-1.8.1.tar.gz
-tar -zxvf libpcap-1.8.1.tar.gz
-cd libpcap-1.8.1
-./configure
-make
-make install
-
 git clone https://github.com/XiaohuaCN/Cloud-Radar-Plus.git
 cd Cloud-Radar-Plus/
 npm i
