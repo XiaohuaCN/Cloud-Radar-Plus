@@ -240,9 +240,9 @@ yum install git
 
 会显示[Y/N] 按Y回车 等待执行完成~
 
-"git clone https://github.com/XiaohuaCN/Cloud-Radar-Plus"
+git clone https://github.com/XiaohuaCN/Cloud-Radar-Plus
 
-"cd Cloud-Radar-Plus/"
+cd Cloud-Radar-Plus/
 
 chmod u+x 1.sh
 
@@ -321,12 +321,11 @@ forever start index.js sniff eth0 XX.XX.XX.XX | pino
 =============================================================
 
 方法2
+打开 - [Xshell 5](https://share.weiyun.com/52F9uF9)  连接你服务器 输入
 
-[Xshell 5](https://share.weiyun.com/52F9uF9) 运行此命令
- 
-cd /root/Cloud-Radar-Plus
- 
-然后
- 
-. 2.sh
+cd Cloud-Radar-Plus/
+
+chmod u+x 2.sh
+
+./2.sh
 
