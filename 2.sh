@@ -5,8 +5,6 @@ echo "准备开始重装 "
 read -p "回车后开始安装"
 echo "请输入 你服务器的 内网ip" 
 read -p "内网ip： " ip
-cp /root/winnerpubg/restart.sh /root/restart.sh
-chmod +x restart.sh
 
 read -p "任意键继续.[注意]是重装.不是安装.前提是你有安装过了SS和雷达了 如果你以前没有安装过请按Ctrl+C 终止操作" 
 
