@@ -71,16 +71,16 @@ Tutorial By:XiaohuaCN  
 - [使用脚本 少量代码自动搭建雷达教程](#使用脚本搭建教程) 
 
 # 先吧自己的服务器变成一个 SS 代理
-复制时 请选中"内"的内容  不要选到"" 这两个符号.
+
 
 在- [Xshell 5](https://share.weiyun.com/52F9uF9) 的窗口内 在下面输入 " "内的内容后按回车
 
-"wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh"
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
 
 
-"chmod +x shadowsocks-all.sh"
+chmod +x shadowsocks-all.sh
 
-"./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log"
+./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 
 执行完这行代码后会让你选择 你是选择搭建单独SS还是SSR 更具自己需求 默认是第一个SS
 
@@ -132,53 +132,53 @@ TCP 和 UDP 必须都是绿色字 才算成功.
 
 的时候就可以执行下一行代码了
 
-"curl https://raw.githubusercontent.com/creationix/nvm/v0.13.1/install.sh | bash"
+curl https://raw.githubusercontent.com/creationix/nvm/v0.13.1/install.sh | bash
 
-"source ~/.bash_profile"
+source ~/.bash_profile
 
-"nvm install v9.8.0"
+nvm install v9.8.0
 
-"nvm alias default v9.8.0"
+nvm alias default v9.8.0
 
 
 
 # 安装libpcap
 
-"yum -y install gcc-c++"
+yum -y install gcc-c++
 
-"yum -y install flex"
+yum -y install flex
 
-"yum -y install bison"
+yum -y install bison
 
-"wget http://www.tcpdump.org/release/libpcap-1.8.1.tar.gz"
+wget http://www.tcpdump.org/release/libpcap-1.8.1.tar.gz
 
-"tar -zxvf libpcap-1.8.1.tar.gz"
+tar -zxvf libpcap-1.8.1.tar.gz
 
-"cd libpcap-1.8.1"
+cd libpcap-1.8.1
 
-"./configure"
+./configure
 
-"make"
+make
 
-"make install"
+make install
 
 
 
 # 最后安装雷达
 
-"yum install git"
+yum install git
 
-"git clone https://github.com/XiaohuaCN/Cloud-Radar-Plus"
+git clone https://github.com/XiaohuaCN/Cloud-Radar-Plus
 
-"cd Cloud-Radar-Plus/"
+cd Cloud-Radar-Plus/
 
-"npm i"
+npm i
 
-"npm i -g pino"
+npm i -g pino
 
-"npm install -g forever"
+npm install -g forever
 
-"forever start index.js sniff eth0 XX.XX.XX.XX | pino"
+forever start index.js sniff eth0 XX.XX.XX.XX | pino
 
 (此处的XX填写 你购买的服务器的内网IP )
 
@@ -236,7 +236,7 @@ QQ:839387596
 
 连接后在 - [Xshell 5](https://share.weiyun.com/52F9uF9)内输入
 
-"yum install git"
+yum install git
 
 会显示[Y/N] 按Y回车 等待执行完成~
 
@@ -244,9 +244,9 @@ QQ:839387596
 
 "cd Cloud-Radar-Plus/"
 
-"chmod u+x 1.sh"
+chmod u+x 1.sh
 
-"./1.sh"
+./1.sh
 
 之后就可以按照提示 操作 自动搭建SS和雷达.
 
@@ -298,22 +298,35 @@ QQ:839387596
 
 ==============================================================
 
+方法1
+
 服务器重启后出现的
 
 打开 - [Xshell 5](https://share.weiyun.com/52F9uF9)  连接你服务器 输入
 
-"cd Cloud-Radar-Plus/"
+cd Cloud-Radar-Plus/
 
-"npm i"
+npm i
 
-"npm i -g pino"
+npm i -g pino
 
-"npm install -g forever"
+npm install -g forever
 
-"forever start index.js sniff eth0 XX.XX.XX.XX | pino"
+forever start index.js sniff eth0 XX.XX.XX.XX | pino
 
 (此处的XX填写 你购买的服务器的内网IP )
 
 回车即可!
 
+=============================================================
+
+方法2
+
+[Xshell 5](https://share.weiyun.com/52F9uF9) 运行此命令
+ 
+cd /root/Cloud-Radar-Plus
+ 
+然后
+ 
+. 2.sh
 
