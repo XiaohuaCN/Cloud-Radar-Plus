@@ -35,4 +35,4 @@ npm i -g pino
 npm install -g forever
 forever start index.js sniff eth0 $ip | pino
 
-echo "搭建完成 ! 请使用你的浏览器打开 服务器的 公网IP 后面加上:20086 查看雷达界面"
+echo "搭建完成 ! 请使用你的浏览器打开 服务器的 公网IP 后面加上:20086 查看雷达界面 如我的公网IP是127.0.0.1 那雷达网址就是127.0.0.1:20086"
