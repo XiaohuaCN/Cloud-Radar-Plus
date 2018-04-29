@@ -73,7 +73,7 @@ Tutorial By:XiaohuaCN  
 # 先吧自己的服务器变成一个 SS 代理
 
 
-在- [Xshell 5](https://share.weiyun.com/52F9uF9) 的窗口内 在下面输入 " "内的内容后按回车
+在- [Xshell 5](https://share.weiyun.com/52F9uF9) 的窗口内 在下面输入
 
 wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
 
@@ -220,7 +220,7 @@ QQ:839387596
 # 使用脚本搭建教程
 - [视频教程](https://share.weiyun.com/5yntFxq) 如果视频下载缓慢请转存到自己微云.然后打开QQ(电脑手机都可以) 然后选择一个好友或自己小号点击 发送文件 - 选择微云文件 - 在聊天框内发送后, 在点击下载 速度就是满速了.
 
-复制时 请选中"内"的内容  不要选到"" 这两个符号.
+
 
 [选购自己服务器的时候,地区也可以选择大陆以内的地区.]
 
