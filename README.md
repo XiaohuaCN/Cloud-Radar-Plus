@@ -56,9 +56,9 @@ Tutorial By:XiaohuaCN  
 # ======================================
 
 # 第一步我们需要用软件连接你自己购买的服务器
-这里我们使用- [Xshell 5](https://share.weiyun.com/52F9uF9) 连接 
+这里我们使用- [Xshell 5](https://share.weiyun.com/5yntFxq) 连接 
 
-打开- [Xshell 5](https://share.weiyun.com/52F9uF9) 后会出现一个弹窗
+打开- [Xshell 5](https://share.weiyun.com/5yntFxq) 后会出现一个弹窗
 
 我们点击新建 - 第一栏名称随便 - 协议SSH - 主机(填写你购买的服务器的公网IP) 
 
@@ -103,7 +103,7 @@ chmod +x shadowsocks-all.sh
 服务器IP 设置好的 端口号 密码 加密方式等. 这样就表示你的SS服务器搭建完成了
 
 # 测试连接是否正常
-下载- [SSTap](https://share.weiyun.com/56wRJOW) 解压打开SSTap
+下载- [SSTap](https://share.weiyun.com/5yntFxq) 解压打开SSTap
 
 [杀软记得信任 或者选择总是允许 不然你以后玩着玩着杀软就会把这个 加速器直接杀掉 导致游戏服务器断开 雷达不会动]
 
@@ -218,7 +218,7 @@ QQ:839387596
 
 
 # 使用脚本搭建教程
-- [视频教程](https://share.weiyun.com/5lf77XK) 如果视频下载缓慢请转存到自己微云.然后打开QQ(电脑手机都可以) 然后选择一个好友或自己小号点击 发送文件 - 选择微云文件 - 在聊天框内发送后, 在点击下载 速度就是满速了.
+- [视频教程](https://share.weiyun.com/5yntFxq) 如果视频下载缓慢请转存到自己微云.然后打开QQ(电脑手机都可以) 然后选择一个好友或自己小号点击 发送文件 - 选择微云文件 - 在聊天框内发送后, 在点击下载 速度就是满速了.
 
 复制时 请选中"内"的内容  不要选到"" 这两个符号.
 
@@ -234,7 +234,7 @@ QQ:839387596
 
 - [1.连接自己的服务器](#第一步我们需要用软件连接你自己购买的服务器) 
 
-连接后在 - [Xshell 5](https://share.weiyun.com/52F9uF9)内输入
+连接后在 - [Xshell 5](https://share.weiyun.com/5yntFxq)内输入
 
 yum install git
 
