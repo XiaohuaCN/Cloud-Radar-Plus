@@ -156,4 +156,3 @@ it('append buffer', () => {
   expect(buf1._localRemainingBits).toBe(0)
   expect(() => buf1.readBit()).toThrow('UEBuffer is at end, cannot read more')
 })
-
