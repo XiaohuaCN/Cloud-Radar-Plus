@@ -26,7 +26,7 @@ Fixed an issue where the enemy could not be displayed.
 
 由于Pubgmap.io 地图服务器问题,导致地图载入不完全 ,本次更新把地图文件下载在 在服务器内 读取游戏地图
 
-不在从Pubgmap.io调用地图  实现地图秒加载~ 
+不在从Pubgmap.io调用地图  # 实现地图秒加载~ 
 
 请重新安装雷达,简单暴力 服务器进行重装系统的操作...
 
