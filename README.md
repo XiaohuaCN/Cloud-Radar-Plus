@@ -1,4 +1,4 @@
-#  Cloud Radar+
+#  Cloud Radar++
 - [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
 
 什么年代了 你还在用虚拟机? 两台电脑? 局域网? JAVA? 用了加速器就失效的雷达?
@@ -9,24 +9,31 @@
 
 打开浏览器输入网址即可享用雷达!
 
+![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/1.png)
+
 # 更新日志
 - [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
 
 2018/04/27/18:37
 
-![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/1.png)
 Fixed an issue where the enemy could not be displayed.
 
 修复由于游戏版本大更新,导致敌人不在雷达上显示的问题.
 
+# ======================================
+
 2018/04/30/21:00
 
-由于Pubgmap.io 地图服务器问题,导致地图载入不完全 ,本次更新改成 在服务器内 读取游戏地图
+由于Pubgmap.io 地图服务器问题,导致地图载入不完全 ,本次更新把地图文件下载在 在服务器内 读取游戏地图
 
-不在从Pubgmap.io调用地图
+不在从Pubgmap.io调用地图  实现地图秒加载~ 
 
 请重新安装雷达,简单暴力 服务器进行重装系统的操作...
 
+修复雷达 敌人 车辆黑色 以及敌人ID错乱等问题
+
+
+# ======================================
 # ======================================
 # 如果你觉得本教程以及工具很有用  可以捐助(不强求) 一下吃不起饭饭的我
 
