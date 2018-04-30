@@ -53,14 +53,12 @@ Tutorial By:XiaohuaCN  
 CPU和内存可以单核和1G 只是搭建SS代理的时候比较慢而已!.
 
 # [选购自己服务器的时候,地区也可以选择大陆以内的地区.]
-- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
 
 只是少了类似网游加速器的 加速效果,,因为你买的服务器是国内的,就相当于你裸连PUBG,,如你买的服务器是成都的,,就等于你在成都直接连接PUBG.
 
 如果香港你延迟100Ms+可以考虑直接取消这台服务器 换一个地区.
 
 # ======================================
-- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
 
 - [使用脚本 少量代码自动搭建雷达教程](#使用脚本搭建教程) 
 
@@ -73,7 +71,6 @@ Tutorial By:XiaohuaCN  
 # ======================================
 
 # 第一步我们需要用软件连接你自己购买的服务器
-- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
 
 这里我们使用- [Xshell 5](https://share.weiyun.com/5yntFxq) 连接 
 
@@ -91,7 +88,6 @@ Tutorial By:XiaohuaCN  
 
 # 先吧自己的服务器变成一个 SS 代理
 
-- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
 
 在- [Xshell 5](https://share.weiyun.com/52F9uF9) 的窗口内 在下面输入
 
@@ -123,7 +119,6 @@ chmod +x shadowsocks-all.sh
 服务器IP 设置好的 端口号 密码 加密方式等. 这样就表示你的SS服务器搭建完成了
 
 # 测试连接是否正常
-- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
 
 下载- [SSTap](https://share.weiyun.com/5yntFxq) 解压打开SSTap
 
@@ -145,7 +140,6 @@ TCP 和 UDP 必须都是绿色字 才算成功.
 
 
 # ======================================
-- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
 
 # 安装雷达前 还需要安装nodejs  npm  和 libpcap (和之前一样一行一行复制 慢慢来不要急)
 
@@ -225,6 +219,8 @@ forever start index.js sniff eth0 XX.XX.XX.XX | pino
 
 
 # 教程结束!
+- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
+
 By:XiaohuaCN  
 
 QQ:839387596
