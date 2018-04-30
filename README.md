@@ -7,7 +7,9 @@
 
 打开浏览器输入网址即可享用雷达!
 
-# 2018/04/27/18:37
+# 更新日志
+2018/04/27/18:37
+
 ![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/1.png)
 Fixed an issue where the enemy could not be displayed.
 
