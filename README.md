@@ -1,4 +1,6 @@
 #  Cloud Radar+
+- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
+
 什么年代了 你还在用虚拟机? 两台电脑? 局域网? JAVA? 用了加速器就失效的雷达?
 
 醒一醒现在是2018年了 Cloud 云服务时代  
@@ -8,6 +10,8 @@
 打开浏览器输入网址即可享用雷达!
 
 # 更新日志
+- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
+
 2018/04/27/18:37
 
 ![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/1.png)
@@ -49,11 +53,15 @@ Tutorial By:XiaohuaCN  
 CPU和内存可以单核和1G 只是搭建SS代理的时候比较慢而已!.
 
 # [选购自己服务器的时候,地区也可以选择大陆以内的地区.]
+- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
+
 只是少了类似网游加速器的 加速效果,,因为你买的服务器是国内的,就相当于你裸连PUBG,,如你买的服务器是成都的,,就等于你在成都直接连接PUBG.
 
 如果香港你延迟100Ms+可以考虑直接取消这台服务器 换一个地区.
 
 # ======================================
+- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
+
 - [使用脚本 少量代码自动搭建雷达教程](#使用脚本搭建教程) 
 
 - [打开雷达网页出现拒绝访问 打不开?](#打开雷达网页显示拒绝访问) 
@@ -65,6 +73,8 @@ Tutorial By:XiaohuaCN  
 # ======================================
 
 # 第一步我们需要用软件连接你自己购买的服务器
+- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
+
 这里我们使用- [Xshell 5](https://share.weiyun.com/5yntFxq) 连接 
 
 打开- [Xshell 5](https://share.weiyun.com/5yntFxq) 后会出现一个弹窗
@@ -81,6 +91,7 @@ Tutorial By:XiaohuaCN  
 
 # 先吧自己的服务器变成一个 SS 代理
 
+- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
 
 在- [Xshell 5](https://share.weiyun.com/52F9uF9) 的窗口内 在下面输入
 
@@ -112,6 +123,8 @@ chmod +x shadowsocks-all.sh
 服务器IP 设置好的 端口号 密码 加密方式等. 这样就表示你的SS服务器搭建完成了
 
 # 测试连接是否正常
+- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
+
 下载- [SSTap](https://share.weiyun.com/5yntFxq) 解压打开SSTap
 
 [杀软记得信任 或者选择总是允许 不然你以后玩着玩着杀软就会把这个 加速器直接杀掉 导致游戏服务器断开 雷达不会动]
@@ -132,6 +145,7 @@ TCP 和 UDP 必须都是绿色字 才算成功.
 
 
 # ======================================
+- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
 
 # 安装雷达前 还需要安装nodejs  npm  和 libpcap (和之前一样一行一行复制 慢慢来不要急)
 
@@ -227,6 +241,8 @@ QQ:839387596
 
 
 # 使用脚本搭建教程
+- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
+
 - [视频教程](https://share.weiyun.com/5yntFxq) 如果视频下载缓慢请转存到自己微云.然后打开QQ(电脑手机都可以) 然后选择一个好友或自己小号点击 发送文件 - 选择微云文件 - 在聊天框内发送后, 在点击下载 速度就是满速了.
 
 
@@ -283,6 +299,8 @@ chmod u+x 1.sh
 
 
 # 教程结束!
+- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
+
 By:XiaohuaCN  
 
 QQ:839387596
