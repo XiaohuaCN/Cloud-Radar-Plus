@@ -13,6 +13,13 @@ Fixed an issue where the enemy could not be displayed.
 
 修复由于游戏版本大更新,导致敌人不在雷达上显示的问题.
 
+2018/04/30/21:00
+
+由于Pubgmap.io 地图服务器问题,导致地图载入不完全 ,本次更新改成本地读取游戏地图
+
+请重新安装雷达,简单暴力 服务器进行重装系统的操作...
+
+# ======================================
 # 如果你觉得本教程以及工具很有用  可以捐助(不强求) 一下吃不起饭饭的我
 
 ![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/1.jpg)
@@ -168,7 +175,7 @@ make install
 
 yum install git
 
-git clone https://github.com/XiaohuaCN/Cloud-Radar-Plus
+git clone https://github.com/XiaohuaCN/Cloud-Radar-Plus [更具服务器的带宽 来决定速度快慢]
 
 cd Cloud-Radar-Plus/
 
@@ -240,7 +247,7 @@ yum install git
 
 会显示[Y/N] 按Y回车 等待执行完成~
 
-git clone https://github.com/XiaohuaCN/Cloud-Radar-Plus
+git clone https://github.com/XiaohuaCN/Cloud-Radar-Plus   [更具服务器的带宽 来决定速度快慢]
 
 cd Cloud-Radar-Plus/
 
