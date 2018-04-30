@@ -14,7 +14,7 @@
 # 更新日志
 - [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
 
-2018/04/27/18:37
+# 2018/04/27/18:37
 
 Fixed an issue where the enemy could not be displayed.
 
@@ -22,7 +22,7 @@ Fixed an issue where the enemy could not be displayed.
 
 # ======================================
 
-2018/04/30/21:00
+# 2018/04/30/21:00
 
 由于Pubgmap.io 地图服务器问题,导致地图载入不完全 ,本次更新把地图文件下载在 在服务器内 读取游戏地图
 
