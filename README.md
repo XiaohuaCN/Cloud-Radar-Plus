@@ -13,7 +13,7 @@
  
  ![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/1.png)
  
- # 更新日志
+ # 更新日志  凡事有问题bug的。格式化服务器。或者重装服务器系统。重新安装雷达
   [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
  
  # 2018/04/27/18:37
