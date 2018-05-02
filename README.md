@@ -309,63 +309,63 @@
  之后按照提示会自动安装雷达.
  
  
- - [最后上游戏吧! 如何上游戏?点击我!](#如何上游戏玩耍) 
+  [最后上游戏吧! 如何上游戏?点击我!](#如何上游戏玩耍) 
  
  
  # 教程结束!
- -- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
- -
- -By:XiaohuaCN  
- -
- -QQ:839387596
- -
- -# Peace!
- -
- -# 如果你觉得本教程以及工具很有用  可以捐助(不强求) 一下吃不起饭饭的我
- -
- -![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/1.jpg)
- -
- -# ======================================
- -
- -
- -
- -
- -# 打开雷达网页显示拒绝访问
- -
+  [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
+ 
+ By:XiaohuaCN  
+ 
+ QQ:839387596
+ 
+ # Peace!
+ 
+ # 如果你觉得本教程以及工具很有用  可以捐助(不强求) 一下吃不起饭饭的我
+ 
+ ![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/1.jpg)
+ 
+ # ======================================
+ 
+ 
+ 
+ 
+ # 打开雷达网页显示拒绝访问
+ 
  ------如果是直接拒绝访问打不开.
- -
- -请检查你的雷达是否搭建成功 服务器内网IP是否填写正确! 是否吧SS端口 和 20086端口 进行映射
- -
- -
- -==============================================================
- -
- -方法1
- -
- -服务器重启后出现的
- -
- -打开 - [Xshell 5](https://share.weiyun.com/52F9uF9)  连接你服务器 输入
- -
- cd Cloud-Radar-Plus/
- -
- npm i
- -
- npm i -g pino
- -
- npm install -g forever
- -
- forever start index.js sniff eth0 XX.XX.XX.XX | pino
- -
- -(此处的XX填写 你购买的服务器的内网IP )
- -
- -回车即可!
- -
- -=============================================================
- -
- -方法2
+ 
+ 请检查你的雷达是否搭建成功 服务器内网IP是否填写正确! 是否吧SS端口 和 20086端口 进行映射
+ 
+ 
+ ==============================================================
+ 
+ 方法1
+ 
+ 服务器重启后出现的
+ 
  打开 - [Xshell 5](https://share.weiyun.com/52F9uF9)  连接你服务器 输入
- -
+ 
  cd Cloud-Radar-Plus/
- -
+ 
+ npm i
+ 
+ npm i -g pino
+ 
+ npm install -g forever
+ 
+ forever start index.js sniff eth0 XX.XX.XX.XX | pino
+ 
+ (此处的XX填写 你购买的服务器的内网IP )
+ 
+ 回车即可!
+ 
+ -=============================================================
+ 
+ 方法2
+ 打开 - [Xshell 5](https://share.weiyun.com/52F9uF9)  连接你服务器 输入
+ 
+ cd Cloud-Radar-Plus/
+ 
  chmod u+x 2.sh
- -
+ 
  ./2.sh
