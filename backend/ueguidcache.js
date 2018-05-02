@@ -6,7 +6,7 @@ const UEGUIDCache = {
   isExportingUEGUIDBunch: false,
 
   reset () {
-    logger.warn('UEGUIDCache reseted!')
+    //logger.warn('UEGUIDCache reseted!')
     this._cacheMap.clear()
     this.isExportingUEGUIDBunch = false
   },
@@ -34,7 +34,7 @@ const UEGUIDCache = {
     // if (pathName) {
     //   console.log(ueguid, newObj)
     // }
-    logger.debug({ guid: ueguid, owner: newObj[1], path: newObj[0] }, 'registered guid cache')
+    //logger.debug({ guid: ueguid, owner: newObj[1], path: newObj[0] }, 'registered guid cache')
   },
   registerUEGUIDClient (ueguid, pathName) {
     const existing = this._cacheMap.get(ueguid)

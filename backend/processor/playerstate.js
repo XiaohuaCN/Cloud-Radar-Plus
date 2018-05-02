@@ -12,7 +12,7 @@ function processPlayer (buf, actor, repObj, waitingHandle, dataOut, i) {
     case 3:
       buf.readBit() // bTearOff
       break
-    case 13:
+    case 4:
       buf.readInt(CONSTS.ROLE_MAX) // role
       break
     case 5:

@@ -64,8 +64,8 @@ const classNameMap = {
   'Attach': {
     'Weapon': {
       'Lower': {
-        'AngledForeGrip':     ['三角', 0b10000000000000000000000000000000],
-        'Foregrip':           ['垂直', 0b10000000000000000000000000000000]
+        'AngledForeGrip':     ['三角', 0b00000000000000000000000000000001],
+        'Foregrip':           ['垂直', 0b00000000000000000000000000000001]      
       },
       'Magazine': {
         'Extended': {

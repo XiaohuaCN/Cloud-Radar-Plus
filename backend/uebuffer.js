@@ -308,6 +308,7 @@ const ueBufferProto = {
     if (bRepPhysics) {
       this.readVector(1000, 24)
     }
+	//console.log(result);
     return result
   },
   readFixedVector (maxValue, numBits) {

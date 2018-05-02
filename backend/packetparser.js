@@ -48,7 +48,7 @@ const packetParserProto = {
       buf.remainingBits = finalBitSize
       buf._localRemainingBits = finalBitSize
     } else {
-      logger.fatal('Got 0 in last byte of udp payload, which looks wrong')
+      //logger.fatal('Got 0 in last byte of udp payload, which looks wrong')
       return
     }
 
@@ -79,11 +79,11 @@ const packetParserProto = {
           buf.remainingBits = finalBitSize
           buf._localRemainingBits = finalBitSize
         } else {
-          logger.fatal('Got 0 in last byte of udp payload, which looks wrong')
+          //logger.fatal('Got 0 in last byte of udp payload, which looks wrong')
           return
         }
       } catch (ex) {
-        logger.warn('Missed decrypting packet')
+        //logger.warn('Missed decrypting packet')
         return null
       }
     }
@@ -101,7 +101,7 @@ const packetParserProto = {
         if (ackPacketId == -1) {
           event.valid = false
           event.error = 'ackPacketId is -1'
-          logger.fatal({ pindex }, 'Got -1 as ackPacketId.') // ??? DON't process further? I don't really know.
+          //logger.fatal({ pindex }, 'Got -1 as ackPacketId.') // ??? DON't process further? I don't really know.
           return event
         }
         const bHasServerFrameTime = buf.readBit()
@@ -151,12 +151,12 @@ const packetParserProto = {
         // this might be caused by non-pubg udp packet
         event.valid = false
         event.error = `bunchDataBits:${bunchDataBits} > preLeft:${preLeft}`
-        logger.fatal({ pindex, bunchDataBits, preLeft }, 'bunchDataBits > preLeft') // cannot continue with corrupted data
+        //logger.fatal({ pindex, bunchDataBits, preLeft }, 'bunchDataBits > preLeft') // cannot continue with corrupted data
         return event
       }
       // END OF getting bunch header, now get bunch data
       if (chType > 4) {
-        logger.fatal({ pindex, chType }, 'Got unknown channel type')
+        //logger.fatal({ pindex, chType }, 'Got unknown channel type')
         return null
       }
       // ignore file and voice and unknown channel type
@@ -172,7 +172,7 @@ const packetParserProto = {
         //  continue
         //}
         if (chIndex !== 0 && !isOutTraffic) {
-          logger.fatal({ chIndex, pindex }, 'Found non-zero Index CONTROL CHANNEL, not good!')
+          //logger.fatal({ chIndex, pindex }, 'Found non-zero Index CONTROL CHANNEL, not good!')
           buf.skipBits(bunchDataBits)
           continue
         }

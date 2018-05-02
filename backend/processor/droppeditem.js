@@ -14,7 +14,7 @@ function processDroppedItem (buf, actor, repObj, waitingHandle, dataOut) {
       buf.readObject() // attachParent
       break
     // 4 is for DroppedItemGroupRootComponent
-    case 13:
+    case 4:
       const arraySize = buf.readUInt16()
       let index = buf.readIntPacked()
       const children = []
@@ -28,7 +28,7 @@ function processDroppedItem (buf, actor, repObj, waitingHandle, dataOut) {
     case 5:
       buf.readName()
       break
-    case 14:
+    case 6:
       buf.readBit() // bReplicatesAttachmentReference
       break
     case 7:

@@ -71,10 +71,10 @@ const repLayoutProcessor = {
       // console.log('repLayout do while ended', evtType, repLayoutBuffer.remainingBits, i)
     } catch (e) {
       if (e.name === 'BufferNotEnoughError') {
-        logger.info(
+        /*logger.info(
           { chunk: i, actor },
           'Got not buffer enough error in repLayoutProcessor'
-        )
+        )*/
       } else {
         throw e
       }

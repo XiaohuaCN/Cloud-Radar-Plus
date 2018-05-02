@@ -122,7 +122,7 @@ const gameState = {
   },
 
   resetGameState () {
-    logger.warn('In GameState resetGameState()')
+    //logger.warn('In GameState resetGameState()')
     this.me = [-1, -1, 0, -360]
     this.meGuid = -100
     this.meAttachedTo = -1000
@@ -163,7 +163,7 @@ const gameState = {
     this.playbackIndex = 0
     this.playbackDoneMs = 0
     this.playbackStartTS = events[0].time
-    logger.warn({ eventCount: events.length }, 'Playback events feeded')
+    //logger.warn({ eventCount: events.length }, 'Playback events feeded')
   },
 
   startPlayback (speed = 1.0, eventCount) {
@@ -176,7 +176,7 @@ const gameState = {
     if (eventCount) {
       this.playbackRemaining = eventCount
     }
-    logger.warn({ interval, speed, toPlayCount: eventCount }, 'Started playback')
+    //logger.warn({ interval, speed, toPlayCount: eventCount }, 'Started playback')
     this._playbackChunk(interval)
   },
 
@@ -194,7 +194,7 @@ const gameState = {
         if (this.playbackRemaining > 0) {
           this.playbackRemaining--
           if (this.playbackRemaining === 0) {
-            logger.warn({ evt: this.playbackEvents[this.playbackIndex - 1] }, 'Playback Paused2')
+            //logger.warn({ evt: this.playbackEvents[this.playbackIndex - 1] }, 'Playback Paused2')
             this.pausePlayback()
             return
           }
@@ -213,7 +213,7 @@ const gameState = {
   pausePlayback () {
     this.playbackState = 'Paused'
     this.playbackRemaining = -1
-    logger.warn({ currentIndex: this.playbackIndex }, 'Playback Paused')
+    //logger.warn({ currentIndex: this.playbackIndex }, 'Playback Paused')
   },
 
   // stop playback, return to the beginning
@@ -225,7 +225,7 @@ const gameState = {
     this.playbackMagic++
     //this.resetGameState()
     this.playbackState = 'Paused'
-    logger.warn('Playback Stopped')
+    //logger.warn('Playback Stopped')
   },
 
   // find the playerState
@@ -237,7 +237,7 @@ const gameState = {
       playerObj.ranking = playerStateObj.ranking
       if (!playerObj.dead) { // make it dead
         playerObj.dead = true
-        logger.info({ guid: playerGuid, obj: playerObj }, 'Player is dead')
+        //logger.info({ guid: playerGuid, obj: playerObj }, 'Player is dead')
         this.showingPlayers.delete(playerGuid)
       }
     }
@@ -249,7 +249,7 @@ const gameState = {
       this.playerNameMap.set(playerStateObj.playerName, playerObj)
       if (this.teamMembers.has(playerObj.name) && !playerObj.friend) {
         playerObj.friend = true
-        logger.warn({ playerName: playerObj.name }, 'Player is friend because of his name')
+        //logger.warn({ playerName: playerObj.name }, 'Player is friend because of his name')
       }
     }
   },
@@ -258,6 +258,9 @@ const gameState = {
     if (!event) {
       return
     }
+	if(String(event.type).indexOf('PlayerUpdate') < 1 && String(event.type).indexOf('SelfLocEx') < 1 && String(event.type).indexOf('ActorOpen') < 1){
+		//console.log(event.type);
+	}
     switch (event.type) {
       case TYPES.SELFLOCEX:
         if (event.data.loc) {
@@ -274,12 +277,13 @@ const gameState = {
         this.resetGameState()
         this.gsTime = this.sTime = (event.time + this.playbackMagic)
         this.isDesert = !!event.data.isMiramar
-        logger.warn({ desert: this.isDesert, gsTime: event.time }, 'Game started')
+        //logger.warn({ desert: this.isDesert, gsTime: event.time }, 'Game started')
         break
       case TYPES.GAMESTOP:
-        logger.warn({ gsTime: this.gsTime }, 'Game stopped!!!!') // do we really get this event?
+        //logger.warn({ gsTime: this.gsTime }, 'Game stopped!!!!') // do we really get this event?
         break
       case TYPES.GAMESTATEUPDATE:
+	  //console.log(event.data);
         if (event.data.safezone) {
           this.safe[0] = event.data.safezone[0] / 100
           this.safe[1] = 8192 - event.data.safezone[1] / 100
@@ -302,6 +306,10 @@ const gameState = {
         this.processActorClose(event)
         break
       case TYPES.PLAYERUPDATE:
+	  //console.log(event.data);
+	  if (event.data.attachedTo != null){
+		  //console.log("pu = " + event.data.attachedTo + " - " + event.guid + " - " + this.meGuid);
+	  }
         if (event.data.attachedTo != null && event.guid === this.meGuid) {
           this.meAttachedTo = event.data.attachedTo
         }
@@ -332,6 +340,7 @@ const gameState = {
           if (event.data.attachedTo) { // maybe the player get on a car
             const theAPawn = this.apawnsMap.get(event.data.attachedTo)
             if (theAPawn && theAPawn.T === ACTOR_TYPES.CAR) {
+				//console.log(theAPawn.T);
               theAPawn.driverCount = theAPawn.driverCount ? theAPawn.driverCount + 1 : 1
               player.inCar = event.data.attachedTo
             }
@@ -339,6 +348,7 @@ const gameState = {
             if (player.inCar) { // try to clear the driver info of the car
               const theAPawn = this.apawnsMap.get(player.inCar)
               if (theAPawn && theAPawn.T === ACTOR_TYPES.CAR) {
+				  //console.log(theAPawn.T);
                 theAPawn.driverCount = theAPawn.driverCount ? theAPawn.driverCount - 1 : 0
               }
               player.inCar = undefined
@@ -380,7 +390,9 @@ const gameState = {
       case TYPES.CARSYNC:
         // this is new protocol, when self driving the car
         // sent out by car object
-        if (this.meAttachedTo === event.guid && event.data.newLoc) { // this apawn can be car or parachute
+		//console.log(meAttachedTo + " - " + event.guid);
+		//console.log("x:" + event.data.newLoc[0] + " y:" + event.data.newLoc[1]);
+        if (/*this.meAttachedTo === event.guid && */event.data.newLoc) { // this apawn can be car or parachute
           this.me[0] = event.data.newLoc[0]
           this.me[1] = event.data.newLoc[1]
           this.me[2] = event.data.newLoc[2]
@@ -411,12 +423,12 @@ const gameState = {
       case TYPES.TEAMUPDATE:
         if (event.data.playerName) {
           this.teamMembers.add(event.data.playerName)
-          logger.warn({ playerName: event.data.playerName }, 'GotTeam member playerName')
+          //logger.warn({ playerName: event.data.playerName }, 'GotTeam member playerName')
           // try to find the playerObj, set isTeam to true
           for (const p of this.players) {
             if (p.name === event.data.playerName) {
               p.friend = true
-              logger.warn({ obj: p }, 'SetA player to friend')
+              //logger.warn({ obj: p }, 'SetA player to friend')
             }
           }
         }

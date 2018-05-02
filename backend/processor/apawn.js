@@ -25,20 +25,21 @@ function processAPawn (buf, actor, repObj, waitingHandle, dataOut) {
         }
       }
       break
-    case 13:
+    case 4:
       buf.readInt(CONSTS.ROLE_MAX) // role
       break
     case 5:
       [ownerGuid, owner] = buf.readObject()
       dataOut.apawnOwner = ownerGuid // seems never got a meaningful owner, maybe data error
       break
-    case 14:
+    case 6:
       // this can be airdrop, droppedItemGroup?, or other apawn
       let moving = true
       if (actor.T === CONSTS.ACTOR_TYPES.BOX || actor.T === CONSTS.ACTOR_TYPES.AIRDROP) {
         moving = false // low def location
       }
       const movement = buf.readMovement(moving /*isMoving*/, false /*isPlayer*/)
+	  //console.log(movement);
       if (movement[0] >= 0 && movement[1] >= 0) { // readVecotr sometime might get me negative value, might be a bug
         dataOut.newLoc = movement
       }
