@@ -1,4 +1,4 @@
-#  Cloud Radar1.2 地图秒加载版本 
+#  Cloud Radar1.2+
 # 安装前记得先删除或者格式化之前的服务器数据(不然可能无法使用) 因为本次是大更新 游戏地图从美国服务器搬运到你的服务器.
 - [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
 
