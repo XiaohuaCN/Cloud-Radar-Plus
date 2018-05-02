@@ -1,6 +1,6 @@
-﻿const appData = {
+const appData = {
   autoRefresh: true,
-  refreshInterval: 1000,
+  refreshInterval: 30,
   gsTime: 0,
   me: [-1, -1, 0, 0],
   meGuid: -1,
@@ -39,18 +39,19 @@ vapp = new Vue({
     showItemThrow: false,
     showItemAmmo: false,
     showItemAll: false,
+    hideAllItems: false,
 
     // --------------------------------------------------------------------------
 
-    showBack: true,
+    showBack: false,
     showArmor2: false,
     showHead2: false,
     showArmor3: true,
     showHead3: true,
-    showFirstAid: true,
+    showFirstAid:false ,
     showMedKit: true,
     showDrink: false,
-    showGrenade: true,
+    showGrenade: false,
     showSmokeBomb: false,
     showAmmo556: false,
     showAmmo762: false,
@@ -66,10 +67,10 @@ vapp = new Vue({
     showSRExtended: false,
     showSRStock: false,
     showM16A4: true,
-    showSCAR: true,
+    showSCAR: false,
     showAK47: false,
     showHK416: true,
-    showPan: true,
+    showPan: false,
     showMini14: false,
     showSKS: false,
     showKar98k: true,
@@ -91,6 +92,8 @@ vapp = new Vue({
     showItemFlags: function () {
       if (this.showItemAll) {
         return 0b11111111111111111111111111111111
+      }else if(this.hideAllItems){
+        return 0
       }
       let flags = 0
       // if (this.showItemTop) {
@@ -216,7 +219,7 @@ vapp = new Vue({
   methods: {
     toggleRefresh () {
       if (appData.autoRefresh) {
-        appData.autoRefresh = true
+        appData.autoRefresh = false
         this.toggleButtonText = 'Start Refresh'
       } else {
         appData.autoRefresh = true
@@ -259,7 +262,7 @@ function getMapSource (mapType) {
 
 const view = new ol.View({
   center: [4096, 4096],
-  zoom: 3,
+  zoom: 5,
   minZoom: 1,
   maxZoom: 7,
   projection: projection
@@ -464,7 +467,7 @@ const safeCircle = new ol.Feature({
   geometry: new ol.geom.Circle([-1, -1], 100)
 })
 safeCircle.setId('safe')
-safeCircle.set('_color', 'rgba(0,0,255,0.9)')
+safeCircle.set('_color', 'rgba(255,255,255,0.9)')
 safeCircle.setStyle(zoneStyleFunc)
 gridSource.addFeature(safeCircle)
 
@@ -472,7 +475,7 @@ const poisonCircle = new ol.Feature({
   geometry: new ol.geom.Circle([-1, -1], 0)
 })
 poisonCircle.setId('poison')
-poisonCircle.set('_color', 'rgba(255,255,255,0.9)')
+poisonCircle.set('_color', 'rgba(0,0,255,0.9)')
 poisonCircle.setStyle(zoneStyleFunc)
 gridSource.addFeature(poisonCircle)
 
@@ -532,7 +535,7 @@ const meStyleFunc = function (feature) {
       }),
       stroke : new ol.style.Stroke({
         width : this.get('_radius') - 1,
-        color : 'rgba(64,255,64,1)'
+        color : 'rgba(239,108,0,1)'
       })
     }),
   })
@@ -541,7 +544,7 @@ const meStyleFunc = function (feature) {
   if (lineGeo)
   result.push(new ol.style.Style({
     geometry: this.get('_lineGeo'),
-    stroke: new ol.style.Stroke({ color: 'rgba(64,255,64,1)', width: 2.2 })
+    stroke: new ol.style.Stroke({ color: 'rgba(239,108,0,0.8)', width: 2.2 })
   }))
   return result
 }
@@ -676,7 +679,21 @@ const renderMap = () => {
          [loc[0] + Math.cos(radianAngle) * 512, loc[1] - Math.sin(radianAngle) * 512]]
         )
       )
-    } 
+    } else { // enemy
+      if (playerObj.team) {
+       // label = `${playerObj.team}`
+      } else if (playerObj.name) {
+       //label = playerObj.name
+      } else {
+       // label = `<${playerObj.name}>`
+      }
+      if (playerObj.kills) {
+       // label += ` |杀:${playerObj.kills}|`
+      }
+    }
+    if (playerObj.health != null) {
+     // label += ` |血:${Math.floor(playerObj.health)}|`
+    }
     feature.set('_label', label)
     // re-add should be fine
     playerSource.addFeature(feature)

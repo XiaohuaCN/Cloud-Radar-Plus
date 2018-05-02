@@ -5,7 +5,7 @@ function slide(){
 	var box2 = document.getElementById("menuBox");
 	 if(box1.style.display=="none"){
             box1.style.display="block"; 
-             box2.style.left="340px";
+             box2.style.left="330px";
                              //显示
         }else{
             box1.style.display="none"; 
