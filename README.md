@@ -1,6 +1,8 @@
 #  Cloud Radar1.2+
 # 安装前记得先删除或者格式化之前的服务器数据(不然可能无法使用) 因为本次是大更新 游戏地图从美国服务器搬运到你的服务器.
 - [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
+- [搭建前请点击我!](#更新日志) 
+
 
 什么年代了 你还在用虚拟机? 两台电脑? 局域网? JAVA? 用了加速器就失效的雷达?
 
@@ -19,7 +21,12 @@
 
 # 2018/05/03/13:21
 游戏更新完毕,PUBG改变了封包密钥. 等待破解新的封包加密协议的密钥...雷达等待新更新........
-# 不要在催更了,破解你与游戏服务器之间的加密通讯协议不是那么容易的,PUBG又不是小游戏.需要耐心等等 短期内暂时可能没有
+
+After the game is updated, PUBG changes the packet key. Waiting to crack the key of the new packet encryption protocol... Radar waits for a new update........
+
+
+# 不要在催更了,破解你与游戏服务器之间的加密通讯协议不是那么容易的,PUBG又不是小游戏.需要耐心等等 短期贱内不会那么容易成功
+It is not easy to crack the encrypted communication protocol between you and the game server. PUBG is not a small game. So please wait patiently and it won't succeed in a short time.
 # ======================================
 
 
@@ -264,6 +271,8 @@ QQ:839387596
 
 
 # 使用脚本搭建教程
+- [搭建前请点击我!](#更新日志) 
+
 - [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
 
 - [视频教程](https://share.weiyun.com/5yntFxq) 如果视频下载缓慢请转存到自己微云.然后打开QQ(电脑手机都可以) 然后选择一个好友或自己小号点击 发送文件 - 选择微云文件 - 在聊天框内发送后, 在点击下载 速度就是满速了.
