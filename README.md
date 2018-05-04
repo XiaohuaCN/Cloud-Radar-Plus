@@ -11,23 +11,6 @@
 
 https://github.com/XiaohuaCN/Cloud-Radar-Plus
 # ======================================
-
-
-#  Cloud Radar1.2+ 安装前记得看更新日志
-- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
-- [搭建前请点击我!](#更新日志) 
-
-
-什么年代了 你还在用虚拟机? 两台电脑? 局域网? JAVA? 用了加速器就失效的雷达?
-
-醒一醒现在是2018年了 Cloud 云服务时代  
-
-只要有浏览器(不限设备 手机电脑 平板随意) 只要有网络(不限网络 手机4G 还是电脑宽带)
-
-打开浏览器输入网址即可享用雷达!
-
-![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/1.png)
-
 # 更新日志
 - [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
 
@@ -42,8 +25,6 @@ After the game is updated, PUBG changes the packet key. Waiting to crack the key
 # 不要在催更了,破解你与游戏服务器之间的加密通讯协议不是那么容易的,PUBG又不是小游戏.需要耐心等等 短期贱内不会那么容易成功
 It is not easy to crack the encrypted communication protocol between you and the game server. PUBG is not a small game. So please wait patiently and it won't succeed in a short time.
 # ======================================
-
-
 # 2018/05/03/6:48
 升级成1.2+
 
@@ -72,6 +53,21 @@ Fixed an issue where the enemy could not be displayed.
 修复由于游戏版本大更新,导致敌人不在雷达上显示的问题.
 
 # ======================================
+
+#  Cloud Radar1.2+ 安装前记得看更新日志
+- [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
+- [搭建前请点击我!](#更新日志) 
+
+
+什么年代了 你还在用虚拟机? 两台电脑? 局域网? JAVA? 用了加速器就失效的雷达?
+
+醒一醒现在是2018年了 Cloud 云服务时代  
+
+只要有浏览器(不限设备 手机电脑 平板随意) 只要有网络(不限网络 手机4G 还是电脑宽带)
+
+打开浏览器输入网址即可享用雷达!
+
+![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/1.png)
 
 # ======================================
 # 如果你觉得本教程以及工具很有用  可以捐助(不强求) 一下吃不起饭饭的我
