@@ -1,8 +1,8 @@
 
 # 目前发现大批人群复制我的代码库.复制时没把.说明.教程.更新日志.等资讯带上,导致你们无法获得最新消息,或者雷达已经不能用了的消息.
-在此我下声一下源地址只有一个也就是 https://github.com/XiaohuaCN/Cloud-Radar-Plus
+# 在此我下声一下源地址只有一个也就是 https://github.com/XiaohuaCN/Cloud-Radar-Plus
 
-其他均为克隆下载....修改了说明README 或者直接删除了README 导致你们明明安装了 然后不能用然后来加我.问我...
+其他均为克隆下载....修改了说明README 或者直接删除了README 说明.教程.更新日志的资讯文件 导致你们明明安装了 然后不能用然后来加我.问我...
 
 这几天太多人加我 问我...萌新还要认真上班班工作呢.
 
@@ -34,7 +34,7 @@ https://github.com/XiaohuaCN/Cloud-Radar-Plus
 - [使用脚本 少量代码自动搭建雷达教程+(视频教程)](#使用脚本搭建教程) 
 
 # 2018/05/03/13:21
-游戏更新完毕,PUBG改变了封包密钥. 等待破解新的封包加密协议的密钥...雷达等待新更新........
+# 游戏更新完毕,PUBG改变了封包密钥. 等待破解新的封包加密协议的密钥...雷达等待新更新........
 
 After the game is updated, PUBG changes the packet key. Waiting to crack the key of the new packet encryption protocol... Radar waits for a new update........
 
