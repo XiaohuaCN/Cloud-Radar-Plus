@@ -1,5 +1,19 @@
-#  Cloud Radar1.2+
-# 安装前记得先删除或者格式化之前的服务器数据(不然可能无法使用) 因为本次是大更新 游戏地图从美国服务器搬运到你的服务器.
+
+# .目前发现大批人群复制我的代码库.复制时没把说明和教程带上 导致你们无法获得最新消息或者雷达已经不能用了的消息
+在此我下声一下源地址只有一个也就是 https://github.com/XiaohuaCN/Cloud-Radar-Plus
+
+其他均为克隆下载....修改了说明README 或者直接删除了README 导致你们明明安装了 然后不能用然后来加我.问我...
+
+这几天太多人加我 问我...萌新还要认真上班班工作呢.
+
+# 记住GitHub源 只有这一个.其他均为复制克隆上去.
+![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/2.jpg)
+
+https://github.com/XiaohuaCN/Cloud-Radar-Plus
+# ======================================
+
+
+#  Cloud Radar1.2+ 安装前记得看更新日志
 - [QQ交谈](http://wpa.qq.com/msgrd?v=3&uin=839387596&site=qq&menu=yes) 
 - [搭建前请点击我!](#更新日志) 
 
