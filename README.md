@@ -1,4 +1,27 @@
+# 2018,06 目前已弃坑,好久没碰过这个东西了.专心享受人生.为了一个游戏搞这个没意义 [不要在申请加我好友了]
+弃坑照~~~
+![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/111.jpg)
 
+
+
+
+
+
+
+
+
+# 弃坑 就算你搭建成功也没效果的![不要在申请加我好友了]
+![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/111.jpg)
+# 弃坑 就算你搭建成功也没效果的![不要在申请加我好友了]
+![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/111.jpg)
+# 弃坑 就算你搭建成功也没效果的![不要在申请加我好友了]
+![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/111.jpg)
+# 弃坑 就算你搭建成功也没效果的![不要在申请加我好友了]
+![image](https://github.com/XiaohuaCN/Cloud-Radar-Plus/blob/master/static/assets/111.jpg)
+
+ 
+ 
+ 
 # 目前发现大批人群复制我的代码库.复制时没把.说明.教程.更新日志.等资讯带上,导致你们无法获得最新消息,或者雷达已经不能用了的消息.
 # 在此我下声一下源地址只有一个也就是 https://github.com/XiaohuaCN/Cloud-Radar-Plus
 
